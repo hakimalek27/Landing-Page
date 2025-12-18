@@ -155,8 +155,9 @@
     >
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- SSDA Card (Position 1) -->
-            <div
-                class="group relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
+            <a
+                href="https://ssda.mamkl.my"
+                class="group relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 block text-left"
             >
                 <div
                     class="absolute top-0 left-0 w-full h-2 bg-secondary"
@@ -183,7 +184,7 @@
                         </div>
                         <span
                             class="px-4 py-1 rounded-full bg-yellow-100 text-yellow-700 text-xs font-bold uppercase tracking-wider"
-                            >Dalam Pembangunan</span
+                            >Aktif</span
                         >
                     </div>
                     <h2
@@ -200,11 +201,10 @@
                         Sistem semakan status keahlian dan pendaftaran baru anak
                         kariah Masjid Al-Muttaqin secara atas talian.
                     </p>
-                    <button
-                        disabled
-                        class="inline-flex items-center gap-2 text-gray-400 font-bold cursor-not-allowed"
+                    <div
+                        class="inline-flex items-center gap-2 text-secondary font-bold hover:gap-4 transition-all duration-300 group-hover:text-secondary/80"
                     >
-                        <span>Akan Datang</span>
+                        <span>Semak Data</span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-5 w-5"
@@ -216,16 +216,16 @@
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 stroke-width="2"
-                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"
                             />
                         </svg>
-                    </button>
+                    </div>
                 </div>
-            </div>
+            </a>
 
             <!-- BPP Card (Position 2 - New) -->
             <a
-                href="/bpp"
+                href="https://bpp.mamkl.my"
                 class="group relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 block text-left"
             >
                 <div
@@ -253,7 +253,7 @@
                         </div>
                         <span
                             class="px-4 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold uppercase tracking-wider"
-                            >Baru</span
+                            >Aktif</span
                         >
                     </div>
                     <h2
@@ -294,7 +294,7 @@
 
             <!-- SPKP Card (Position 3) -->
             <a
-                href="/spkp"
+                href="https://spkp.mamkl.my"
                 class="group relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 block text-left"
             >
                 <div class="absolute top-0 left-0 w-full h-2 bg-primary"></div>
